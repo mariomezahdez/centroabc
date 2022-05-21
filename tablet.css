@@ -1,0 +1,74 @@
+@media(min-width :600px){
+
+    main .main_cap_description h1{
+        margin: 0px;
+    }
+    main .main_cap_description button{
+        margin-top: 120px;
+        border: none;
+        height: 40px;
+        width: 110px;
+        border-radius: 10px;
+    }
+
+    .info_cards_description_tablet{
+        height: 250px;
+        padding: 20px;
+        display: flex;
+    }
+    
+    #info_cards h1{
+        margin-bottom: 20px;
+    }
+
+    .info_cards_description_tablet p{
+       margin-top: 80px;
+       font-size: 1.5rem;
+    }
+
+    #about {
+        padding:30px;
+    }
+
+    #about p{
+        font-size: 1.5rem;
+    }
+
+    .opinions_description {
+        font-size: 1.4rem;
+        padding: 30px;
+    }
+
+    #contac{
+        height: 650px;
+    }
+
+    #contac form{
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 30px;
+        display: flex;
+    }
+
+    #contac .form{
+        padding-left: 0px;
+    }
+
+    #contac .form_radio{
+        padding-left: 0px;
+    }
+
+    .form_radios{
+        display: flex;
+        padding: 10px 80px;
+        justify-content: space-between;
+    }
+    #contac_buton{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        margin-top: 450px;
+        margin-left:35%;
+    }
+
+}

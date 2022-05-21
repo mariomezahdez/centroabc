@@ -1,0 +1,238 @@
+@media(min-width: 1280px){
+    
+    header{
+        height: 60px;
+        display: flex;
+    }
+
+    header .header_menu{
+        display: none;
+    }
+
+    header .header_logo{
+        height: 65px;
+        width: 105px;
+        margin-left: 70px;
+    }
+
+    header ul{
+        display: flex;
+        justify-content: space-around;
+        width: 800px;
+        height: 60px;
+        padding-top: 10px;
+        list-style: none;
+        top: 0px;
+        background-color: var(--blank1);
+    }
+
+    header ul li{
+        margin: 15px;
+        text-decoration: none;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        color: #271C40;
+    }
+
+    main{
+        height: 680px;
+        background-image: url(./img/images/hero_big2.jpg);
+    }
+    
+    main .main_cap{
+        height: 400px;
+        width: 400px;
+        margin-left: 80px;
+        background: none;
+    }
+
+    main .main_cap_title{
+        margin-top: 120px;
+        font-size: 1.4rem;
+    }
+    
+    main .main_cap_title p{
+       margin-top: 50px;
+       font-size: 1.5rem;
+    }
+    main .main_cap_title h1 br{
+        display: none;
+    }
+    
+    main .main_cap_description{
+        margin-top: 50px;
+    }
+    
+    main .main_cap_description button{
+        margin-top: 70px;
+        height: 40px;
+        width: 120px;
+      
+    }
+
+    #info_cards h1{
+        font-size: 3rem;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .info_cards_container{
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 30px;
+        overflow-x: none;
+        overscroll-behavior-x: none;
+        scroll-snap-type: none; 
+    }
+
+    .container.info_cards_description{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .info_cards_description h1{
+        font-size: 3rem;
+        margin-bottom: 0px;
+    }
+
+    .info_cards_description_tablet{
+        padding: 0px 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info_cards_description_tablet p{
+        height: 200px;
+        width: 500px;
+        margin-top: 40px;
+        font-size: 2rem;
+    }
+
+    .info_cards_description_tablet picture{
+        height: 200px;
+        width: 400px;
+    }
+
+    .info_cards_description_tablet picture img{
+        height: 220px;
+        width: 380px;
+        margin-top: 0px;
+        border-radius: 20px; 
+    }
+
+    #about{
+        height: 680px;
+        color: #271C40;
+    }
+
+    #about h1{
+        font-size: 3rem;
+    }
+
+    #about p{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .about_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .about_container_one{
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about_container_one .about_picture_one{
+        height: 300px;
+        width: 600px;
+        padding-left: 0px;
+    }
+
+    .about_container_one .about_picture_one img{
+        height: 250px;
+        width: 400px;
+    }
+
+    .about_container_one p{
+        height: 300px;
+        width: 650px;
+        padding: 90px 50px;
+        font-size: 2rem;
+    }
+    
+    .about_container_two{
+        height: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .about_container_two .about_picture_two{
+        height: 300px;
+        width: 900px;
+        padding-right: 0px;
+    }
+    
+    .about_container_two .about_picture_two img{
+        height: 250px;
+        width: 400px;
+    }
+
+    .about_container_two p{
+        height: 300px;
+        width: 650px;
+        padding: 90px 50px;
+        font-size: 2rem;
+    }
+
+    #opinions h1{
+        font-size: 3rem;
+    }
+
+    .opinions_description{
+        font-size: 2rem;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+
+    .opinions_cards_container{
+        height: 300px;
+        margin-top: 60px;
+        padding: 0px 30px;
+        overflow-x: none;
+        overscroll-behavior-x: none;
+        scroll-snap-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+
+    #contac h1{
+        font-size: 3rem
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contac_container_one .form{
+        font-size: 2rem;
+    }
+
+    #contac_buton{
+        margin-left: 0px;
+    }
+
+}
